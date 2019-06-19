@@ -1,0 +1,16 @@
+﻿<Window x:Class="GluttonousSnakeWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GluttonousSnakeWPF"
+        mc:Ignorable="d"
+        Title="贪食蛇" Height="450" Width="800"
+        KeyDown="Window_KeyDown"
+        KeyUp="Window_KeyUp"   
+        >
+    <Grid>
+        <Canvas x:Name="_Canvas" HorizontalAlignment="Left" Height="420" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="800"/>
+
+    </Grid>
+</Window>
